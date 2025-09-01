@@ -14,11 +14,11 @@ html{
 }
 
 header{
-	margin-top: 2%;
+	margin-top: 50px;
 }
 
 .container{
-	margin-top: 2%;
+	margin-top: 50px;
 	min-height: 800px;
 	background: url('img/me.jpg') center/cover no-repeat;
 
@@ -34,16 +34,16 @@ header{
 	color: #11ff00;
 	background-color: #1c7370;
 	border-radius: 30px;
-	padding-left: 3%;
-	padding-right: 3%;
-	padding-top: 0.5% ;
-	padding-bottom: 0.5%;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px ;
+	padding-bottom: 10px;
 	text-decoration: none;
 	box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3);
 
 }
 footer {
-	margin-top: 2%;
+	margin-top: 50px;
 }
 footer a {
 	color:aqua;
