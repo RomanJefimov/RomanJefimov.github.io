@@ -1,0 +1,897 @@
+body {
+	font-family: Unbounded;
+	background-color: #E5DED8;
+	margin-top:0;
+}
+.wrapper {
+	width: 77%;
+	margin-left: 11.4583333333333333%;
+}
+header {
+	background: url('Images/background.jpg') center/cover;
+	height: 62.4375rem;
+
+}
+nav {
+	width: 100%;
+}
+nav img {
+	float:left;
+	margin-left: 4.7297297297%;
+	margin-right: 9.1081081081%;
+	margin-top: 4.25rem;
+}
+.navigation {
+	font-size: 1rem;
+	float: left;
+	width: 8.527027027%;
+	margin-right: 3.0405405405%;
+	margin-top: 4.25rem;
+}
+
+.cabinet {
+	background-color: #005365;
+	width: 14.4324324324324324%;
+	height: 2.0625rem;
+	font-size: 1rem;
+	color: white;
+	border-radius: 8px;
+	font-family: Unbounded;
+	margin-top: 4.25rem;
+	margin-left: 4.445945946%;
+}
+.logo {
+	margin-right: 8.1756756756756757%;
+}
+header h1 {
+	font-size: 8rem;
+	color: #005365;
+	text-align: center;
+	clear: left;
+	position: absolute;
+	top: 4.875rem;
+	left: 26.770833333%;
+	width: 48.648648649%;
+}
+header h2 {
+	font-size: 4rem;
+	color: white;
+	text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+    text-align: center;
+    width: 55.2297297297297297%;
+    position: absolute;
+	top: 16.875rem;
+	left: 22.770833333%;
+}
+.to_offers {
+	float: left;
+	background-color: #005365;
+	color: white;
+	width: 17.8378378378378378%;
+	height: 3.75rem;
+	font-size: 1.25rem;
+	font-family: Unbounded;
+	border-radius: 8px;
+	margin-top: 32.125rem;
+	margin-left: 10.5%;
+
+}
+.ser_wrapper {
+	clear: left;
+}
+.services {
+	width: 17.8378378378378378%;
+	height: 11.3125rem;
+	background-color: white;
+	border: 3px solid black;
+	border-radius: 35px;
+	margin-top: 5rem;
+	float: left;
+	margin-left: 11.5%;
+}
+.services img {
+	margin-left:30%;
+	width: 38.2575757575757576%;
+}
+.services p {
+	float:left;
+	text-align: center;
+	font-size: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.about {
+	float:left;
+	background-color: #005365;
+	height: 37.5rem;
+}
+.about h2 {
+	font-size: 2.25rem;
+	color: white;
+	margin-top: 2rem;
+	margin-left: 51.351351351%;
+}
+.about img {
+	width: 38.3783783783783784%;
+	height: 23.875rem;
+	float: left;
+	margin-left: 10.27027027%;
+	margin-right: 2.7027027027%;
+}
+.about p {
+	font-size: 1.375rem;
+	padding-left: 4rem;
+	padding-top: 2rem;
+	padding-right: 1rem;
+}
+.about_text {
+	background-color: white;
+	width: 38.3783783783783784%;
+	height: 23.875rem;
+	float: left;
+}
+.certificates {
+	float: left;
+	background-color: black;
+	height: 25rem;
+	width: 100%;
+}
+.certificates h2 {
+	font-size: 2.25rem;
+	color: white;
+	margin-left: 38.513513514%;
+}
+.certificates img {
+	width: 20%;
+	margin-right: 2.7027027027%;
+}
+.cer_photos {
+	margin-left: 10.27027027%;
+}
+.offers {
+	float: left;
+	width: 100%;
+	height: 75rem;
+	background-color: white;
+}
+.offers h2 {
+	margin-top: 1.75rem;
+	margin-left: 10.27027027%;
+	margin-bottom: 2.188rem;
+	font-size: 2.25rem;
+}
+.offer_wrapper {
+	margin-left: 10.27027027%;
+}
+.offer_card {
+	width: 20.18%;
+	height: 26.25rem;
+	float: left;
+	margin-right: 13%;
+	margin-bottom: 4.875rem;
+}
+
+.offer_card  h3{
+	margin-top: 3%;
+	margin-bottom: 0;
+	font-size: 1.25rem;
+}
+.offer_card  h4{
+	float: left;
+	font-size: 1.25rem;
+	width: 61%;
+}
+.offer_card p {
+	font-size: 0.938rem;
+	margin-bottom: 0;;
+}
+.offer_card input {
+	float:left;
+	background-color: #005365;
+	color: white;
+	font-family: Unbounded;
+	width: 39%;
+	height: 1.875rem;
+	border-radius: 8px;
+	font-size: 1 rem;
+	margin-bottom: 0;
+	margin-top: 1.5rem;
+}
+.more {
+	height: 3.75rem;
+	width: 19%;
+	background-color: #005365;
+	color: white;
+	font-family: Unbounded;
+	border-radius: 8px;
+	font-size: 1.25rem;
+	margin-left: 41.081081081%;
+}
+.delivery {
+	float:left;
+	width: 100%;
+	height: 38.75rem;
+	background-color: #005365;
+}
+.delivery img {
+	margin-right: 1%;
+	margin-top: 8.75rem;
+	height: 10.438 rem;
+	width: 38.378378378%;
+	border-radius: 8px;
+	float: left;
+	margin-left: 10.27027027%;
+}
+.delivery h2 {
+	text-align: center;
+	margin-top: 8.2rem;
+	font-size: 2.25rem;
+	color: white;
+	padding-right: 2rem;
+	margin-bottom: 0;
+}
+.delivery ul {
+	color: white;
+	font-size: 1.5rem;
+	float: left;
+	line-height: 190%;
+	margin-left: 3.5%;
+}
+.delivery input {
+	font-family: Unbounded;
+	background-color: white;
+	border-radius: 8px;	
+	font-size: 1.5rem;
+	width: 17.905405405%;
+	height: 3.125rem;
+	margin-left: 12.837837838%;
+	margin-top: 3.5rem;
+}
+.reviews {
+	background-color: black;
+	float: left;
+	height: 37.75rem;
+} 
+.reviews h2 {
+	margin-top: 2.75rem;
+	margin-left: 10.27027027%;
+	margin-bottom: 1.188rem;
+	font-size: 2.25rem;
+	color: white;
+
+}
+.customer_review {
+	margin-left: 22.27027027%;
+	height: 6.25rem;
+	margin-bottom: 2.25rem;
+	background-color: white;
+	width: 57.918918919%;
+	border-radius: 8px;
+}
+.reviews img {
+	width: 8%;
+	margin-left: 10.27027027%;
+	float: left;
+	margin-right: 3.6486486486%;
+	margin-bottom: 1.25rem;
+}
+.customer_review h3 {
+	margin-bottom: 0;
+	font-size: 1 rem;
+	padding-left: 2%;
+	padding-top: 1%;
+}
+.customer_review p {
+	font-size: 0.75rem;
+	padding-left: 2%;
+}
+.reviews input {
+	font-family: Unbounded;
+	background-color: white;
+	width: 17.905405405%;
+	height: 3.125rem;
+	font-size: 1.5rem;
+	border-radius: 8px;
+	margin-left: 41.081081081%;
+}
+.team {
+	background-color: #005365;
+	float: left;
+	width: 100%;
+}
+.team h2 {
+	font-size: 2.25rem;
+	color: white;
+	margin-left: 42.702702703%;
+	margin-top: 2rem;
+}
+.team_card {
+	width: 19.905405405%;
+	margin-left: 10.27027027%;
+	float:left;
+	margin-bottom: 4.563rem;
+	color: white;
+	margin-right: 2%;
+}
+.team_card h3 {
+	font-size: 1.5rem;
+
+}
+.team_card p {
+	font-size: 1.25rem;
+	
+}
+.contacts {
+	height: 34.125rem;
+	float: left;
+	background-color: white;
+	width: 100%;
+}
+.contacts img {
+	margin-top: 4.125rem;
+	float: left;
+	width: 25.337837838%;
+	margin-left:  22.972972973%;
+	margin-right: 5.6351351351%;
+}
+.info {
+	float:left;
+	margin-top: 2.125rem;
+}
+.info h2 {
+	font-size: 2.25rem;
+}
+.info p {
+	font-size: 1.375rem;
+}
+/*--------------------------------------Медиазапросы--------------------------------------------*/
+@media (min-width: 1495px) and (max-width: 1685px) {
+	.wrapper {
+		width:86.9230769230769231%;
+		margin-left: 6.5%;
+	}
+	.more {
+		margin-left: 40%;
+	}
+	.services {
+		margin-left: 11.6%;
+	}
+}
+@media (min-width: 1388px) and (max-width: 1494px) {
+	.wrapper {
+		width: 93.75%;
+		margin-left: 3%;
+	}
+	header h1 {
+	font-size: 7rem;
+	}
+	header h2 {
+	font-size: 3rem;
+    width: 50.2297297297297297%;
+	top: 15.875rem;
+	left: 25%;
+	}
+	.to_offers {
+	width: 17.8378378378378378%;
+	height: 3.75rem;
+	font-size: 1.25rem;
+	margin-top: 30.125rem;
+	margin-left: 9.5%;
+	}
+	.more {
+		margin-left: 40%;
+	}
+	.reviews input {
+		font-size: 1.2rem;
+	}
+}
+@media (min-width: 1301px) and (max-width: 1387px) {
+	.wrapper {
+		width: 93.75%;
+		margin-left: 3%;
+	}
+	header {
+		height:60rem;
+	}
+	nav img {
+		width: 20%;
+		margin-right: 6.1081081081%;
+	}
+	.navigation {
+	font-size: 1rem;
+	float: left;
+	width: 9.527027027%;
+	margin-right: 3.0405405405%;
+	margin-top: 4.25rem;
+	}
+	header h1 {
+	font-size: 7rem;
+	}
+	header h2 {
+	font-size: 3rem;
+    width: 50.2297297297297297%;
+	top: 15.875rem;
+	left: 25%;
+	}
+	.to_offers {
+	width: 17.8378378378378378%;
+	height: 3.75rem;
+	font-size: 1rem;
+	margin-top: 30.125rem;
+	margin-left: 13%;
+	}
+	.more {
+		margin-left: 40%;
+	}
+	.reviews input {
+		font-size: 1.2rem;
+	}
+}	
+@media (min-width: 1090px) and (max-width: 1300px) {
+	.wrapper {
+		width: 93.75%;
+		margin-left: 3%;
+	}
+	header {
+		height:56.25rem;
+	}
+	nav img {
+		width: 18.1415929203539823%;
+		margin-right: 6.1081081081%;
+	}
+	.navigation {
+	font-size: 0.875rem;
+	float: left;
+	width: 9.527027027%;
+	margin-right: 3.0405405405%;
+	margin-top: 4.25rem;
+	}
+	.cabinet {
+	width: 14.8672566371681416%;
+	height: 2.188rem;
+	font-size: 0.875rem;
+	margin-top: 3.7rem;
+	margin-left: 4.445945946%;
+	}
+	header h1 {
+	font-size: 6rem;
+	left:25.752212389380531%;
+	}
+	header h2 {
+	font-size: 3rem;
+    width: 50.2297297297297297%;
+	top: 14.875rem;
+	left: 25%;
+	}
+	.to_offers {
+	width: 20.3539823008849558%;
+	height: 3.75rem;
+	font-size: 1.125rem;
+	margin-top: 30.125rem;
+	margin-left: 13%;
+	}
+	.services {
+		width: 20.3539823008849558%;
+		margin-left: 9.2743362831858407%;
+		height: 10.181rem;
+	}
+	.services p {
+		font-size: 0.875rem;
+	}
+	.about {
+		height: 34.938rem;
+	}
+	.about h2 {
+		margin-left: 55.5%;
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
+	.about img {
+		width: 33.6283185840707965%;
+		height: 20.063rem;
+		margin-left: 11.27027027%;
+		margin-right: 10.7027027027%;
+	}
+	.about p {
+		font-size: 1rem;
+		padding-left: 3rem;
+		padding-top: 2rem;
+		padding-right: 1rem;
+	}
+	.about_text {
+		background-color: white;
+		width: 33.6283185840707965%;
+		height: 20.063rem;
+
+	}
+	.reviews input {
+		font-size: 1.2rem;
+	}	
+	.certificates {
+		height: 23.375rem;
+	}
+	.certificates h2 {
+		font-size: 2rem;
+		margin-left: 39%;
+		margin-top: 4%;
+	}
+	.certificates img {
+		width: 16.3716814159292035%;
+		margin-right: 7%;
+		margin-top: 3%;
+	}
+	.offer_card {
+		width: 20.18%;
+		height: 26.25rem;
+		float: left;
+		margin-right: 13%;
+		margin-bottom: 4.875rem;
+	}
+	.offers {
+		height: 74.875rem;
+	}
+	.offers h2 {
+		font-size: 2rem;
+	}
+	.offer_card {
+		width: 20%;
+		margin-right: 13%;
+	}
+	.offer_card img {
+		width: 100%;
+	}
+	.offer_card  h3{
+		font-size: 1rem;
+	}
+	.offer_card  h4{
+		float: left;
+		font-size: 1rem;
+		width: 55%;
+	}
+	.offer_card p {
+		font-size: 0.875rem;
+	}
+	.offer_card input {
+		width: 43%;
+		height: 1.875rem;
+		font-size: 0.938 rem;
+		margin-top: 1rem;
+		margin-left: 2%;
+	}
+	.more {
+		width: 20%;
+		margin-left: 39%;
+		font-size: 1.25rem;
+	}
+	.delivery {
+		height: 33.313rem;
+	}
+	.delivery img {
+		margin-right: 1%;
+		margin-top: 8.75rem;
+		height: 20.125 rem;
+		width: 33.6283185840707965%;
+		border-radius: 8px;
+		margin-left: 10.27027027%;
+	}
+	.delivery h2 {
+		margin-top: 8.2rem;
+		font-size: 2rem;
+		padding-right: 2rem;
+		margin-bottom: 0;
+	}
+	.delivery ul {
+		font-size: 1.25rem;
+		margin-left: 3.5%;
+	}
+	.delivery input {
+		font-size: 1.25rem;
+		width: 14.1592920353982301%;
+		height: 2.688rem;
+		margin-left: 17.837837838%;
+		margin-top: 0.5rem;
+	}
+	.reviews {
+		height: 31.5rem;
+	} 
+	.reviews h2 {
+		margin-top: 0.75rem;
+		margin-left: 10.27027027%;
+		margin-bottom: 1.188rem;
+		font-size: 2rem;
+	}
+	.customer_review {
+		height: 5.375rem;
+		width: 58.8495575221238938%;
+	}
+	.reviews img {
+		width: 7.168141592920354%;
+	}
+	.customer_review h3 {
+		font-size: 0.938 rem;
+		margin-bottom: -1%;
+	}
+	.customer_review p {
+		font-size: 0.688rem;
+	}
+	.reviews input {
+		width: 20.1769911504424779%;
+		height: 2.625rem;
+		font-size: 1.188rem;
+		margin-left: 41.081081081%;
+	}
+	.team {
+		background-color: #005365;
+		float: left;
+		width: 100%;
+	}
+	.team img {
+		margin-bottom: -7%;
+	}
+	.team h2 {
+		font-size: 2rem;
+	}
+	.team_card {
+		width: 20%;
+		margin-bottom: 4.563rem;
+		margin-right: 2%;
+	}
+	.team_card h3 {
+		font-size: 1.25rem;
+		margin-bottom: -5%;
+	}
+	.team_card p {
+		font-size: 1rem;
+		
+	}
+	.contacts img {
+		margin-top: 4.125rem;
+		width: 25.752212389380531%;
+		margin-left:  20.972972973%;
+		margin-right: 7.6351351351%;
+	}
+	.info h2 {
+		font-size: 2rem;
+	}
+	.info p {
+		font-size: 1.188rem;
+	}
+}
+@media (min-width: 961px) and (max-width: 1089px) {
+	.wrapper {
+		width: 93.75%;
+		margin-left: 3%;
+	}
+	header {
+		height:56.25rem;
+	}
+	nav img {
+		width: 18.1415929203539823%;
+		margin-right: 6.1081081081%;
+	}
+	.navigation {
+		font-size: 0.75rem;
+		float: left;
+		width: 9.527027027%;
+		margin-right: 3.0405405405%;
+		margin-top: 4.25rem;
+	}
+	.cabinet {
+		width: 14.8672566371681416%;
+		height: 2.188rem;
+		font-size: 0.75rem;
+		margin-top: 3.7rem;
+		margin-left: 4.445945946%;
+	}
+	header h1 {
+		font-size: 6rem;
+		left:25.752212389380531%;
+	}
+	header h2 {
+		font-size: 3rem;
+    	width: 50.2297297297297297%;
+		top: 14.875rem;
+		left: 25%;
+	}
+	.to_offers {
+		width: 20.3539823008849558%;
+		height: 3.75rem;
+		font-size: 1rem;
+		margin-top: 30.125rem;
+		margin-left: 13%;
+	}
+	.services {
+		width: 20.3539823008849558%;
+		margin-left: 9.2743362831858407%;
+		height: 10.181rem;
+	}
+	.services p {
+		font-size: 0.875rem;
+	}
+	.about {
+		height: 34.938rem;
+	}
+	.about h2 {
+		margin-left: 55.5%;
+		font-size: 2rem;
+		margin-top: 3rem;
+	}
+	.about img {
+		width: 33.6283185840707965%;
+		height: 20.063rem;
+		margin-left: 11.27027027%;
+		margin-right: 10.7027027027%;
+	}
+	.about p {
+		font-size: 1rem;
+		padding-left: 3rem;
+		padding-top: 2rem;
+		padding-right: 1rem;
+	}
+	.about_text {
+		background-color: white;
+		width: 33.6283185840707965%;
+		height: 20.063rem;
+
+	}
+	.reviews input {
+		font-size: 1.2rem;
+	}	
+	.certificates {
+		height: 23.375rem;
+	}
+	.certificates h2 {
+		font-size: 2rem;
+		margin-left: 39%;
+		margin-top: 4%;
+	}
+	.certificates img {
+		width: 16.3716814159292035%;
+		margin-right: 7%;
+		margin-top: 3%;
+	}
+	.offer_card {
+		width: 20.18%;
+		height: 26.25rem;
+		float: left;
+		margin-right: 13%;
+		margin-bottom: 4.875rem;
+	}
+	.offers {
+		height: 74.875rem;
+	}
+	.offers h2 {
+		font-size: 2rem;
+	}
+	.offer_card {
+		width: 20%;
+		margin-right: 13%;
+	}
+	.offer_card img {
+		width: 100%;
+	}
+	.offer_card  h3{
+		font-size: 1rem;
+	}
+	.offer_card  h4{
+		float: left;
+		font-size: 1rem;
+		width: 55%;
+	}
+	.offer_card p {
+		font-size: 0.875rem;
+	}
+	.offer_card input {
+		width: 43%;
+		height: 1.875rem;
+		font-size: 0.65rem;
+		margin-top: 1rem;
+		margin-left: 2%;
+	}
+	.more {
+		width: 20%;
+		margin-left: 39%;
+		font-size: 1rem;
+	}
+	.delivery {
+		height: 33.313rem;
+	}
+	.delivery img {
+		margin-right: 1%;
+		margin-top: 8.75rem;
+		height: 20.125rem;
+		width: 33.6283185840707965%;
+		border-radius: 8px;
+		float: left;
+		margin-left: 10.27027027%;
+	}
+	.delivery h2 {
+		margin-top: 8.2rem;
+		font-size: 2rem;
+		padding-right: 2rem;
+		margin-bottom: 0;
+	}
+	.delivery ul {
+		font-size: 1.25rem;
+		margin-left: 3.5%;
+	}
+	.delivery input {
+		font-size: 1.25rem;
+		width: 14.1592920353982301%;
+		height: 2.688rem;
+		margin-left: 17.837837838%;
+		margin-top: 0.5rem;
+	}
+	.reviews {
+		height: 31.5rem;
+	} 
+	.reviews h2 {
+		margin-top: 0.75rem;
+		margin-left: 10.27027027%;
+		margin-bottom: 1.188rem;
+		font-size: 2rem;
+	}
+	.customer_review {
+		height: 5.375rem;
+		width: 58.8495575221238938%;
+	}
+	.reviews img {
+		width: 7.168141592920354%;
+	}
+	.customer_review h3 {
+		font-size: 0.938 rem;
+		margin-bottom: -1%;
+	}
+	.customer_review p {
+		font-size: 0.588rem;
+	}
+	.reviews input {
+		width: 20.1769911504424779%;
+		height: 2.625rem;
+		font-size: 1rem;
+		margin-left: 41.081081081%;
+	}
+	.team {
+		background-color: #005365;
+		float: left;
+		width: 100%;
+	}
+	.team img {
+		margin-bottom: -7%;
+	}
+	.team h2 {
+		font-size: 2rem;
+	}
+	.team_card {
+		width: 20%;
+		margin-bottom: 4.563rem;
+		margin-right: 2%;
+	}
+	.team_card h3 {
+		font-size: 1.25rem;
+		margin-bottom: -5%;
+	}
+	.team_card p {
+		font-size: 1rem;
+		
+	}
+	.contacts img {
+		margin-top: 4.125rem;
+		width: 25.752212389380531%;
+		margin-left:  15.972972973%;
+		margin-right: 7.6351351351%;
+	}
+	.info h2 {
+		font-size: 2rem;
+	}
+	.info p {
+		font-size: 1.188rem;
+	}
+}
+@media (min-width: 600px) and (max-width: 960px) {
+
+}

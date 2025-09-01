@@ -10,7 +10,7 @@ html{
 	font-size: 50px;
 	text-align: center;
 	color: #ffff;
-	background: #27353f;
+	background: #275856;
 }
 
 header{
@@ -23,13 +23,23 @@ header{
 
 }
 
+
 .my_projects {
 	display: block;
 	left: 10px;
 }
 
 .my_projects a{
-	color: #39bedc;
+	color: #11ff00;
+	background-color: #275856;
+	border-radius: 15px;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-bottom: 10%;
+
+}
+footer a {
+	color:aqua;
 }
 
 
