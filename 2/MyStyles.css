@@ -1,0 +1,51 @@
+html {
+    background-image: url('image/grass.jpg');
+
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #eee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#snake-field{
+    display: inline-block;
+}
+#snake-renew,#snake-start{
+    width: 200px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(130, 73, 9);
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.game-table{
+    border-collapse: collapse;
+    background-color: #d9973c;
+    border: 10px inset  rgb(130, 73, 9);
+}
+td.game-table-cell{
+    width: 25px;
+    height: 25px;
+    border: 1px dotted #eee;
+}
+.snake-unit{
+    background-color: rgb(24, 166, 2);
+}
+.food-unit{
+    background-color: rgb(255, 17, 17);
+}
+.buttons{
+    display: inline-block;
+}
+.wrap{
+    margin: 30px auto 0;
+    text-align: center;
+}
