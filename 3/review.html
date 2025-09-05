@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Cofeshop Markiss review</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="review_style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<header>
+	<div class="logo">
+		<img src="images/logo.png" alt="logo">
+	</div>
+	<h1>Отзыв о кофейне MARKISS</h1>
+</header>
+<body>
+	<div class="wrapper">
+		<fieldset>
+				<legend>Анкета</legend>
+					<form>
+					<div class="container">
+						<label>Имя</label>
+						<input type="text" name="first_name" value="Введите имя">
+					</div>
+					<div class="container">
+						<label>Фамилия <br>(по желанию)</label>
+						<input type="text" name="second_name" value="Введите фамилию">
+					</div>
+					<div class="container">
+						<label>E-mail</label>
+						<input type="email" name = "email" value = "Введите E-mail">
+					</div>
+					<div class="container">
+						<label>Отзыв</label>
+						<p><textarea name="message" rows="10" cols="30">Оставьте свой отзыв здесь:</textarea></p>
+					</div>
+					<div class="container">	
+						<label>Как вы оцениваете наше заведение? <br>(по 5-ти бальной системе)</label>
+						<p><input type="range" name="rank" min="1" max="5"></p>
+					</div>
+						<input type="submit" name="send" value="Отправить">
+						<a href ='index.html'>
+							<input type="button" name="back" value="Вернуться обратно">
+						</a>
+					</form>
+
+		</fieldset>
+	</div>
+</body>
+</html>

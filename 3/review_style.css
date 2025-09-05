@@ -1,0 +1,84 @@
+body {
+	font-family: Unbounded;
+	background-color: #E5DED8;
+	margin-top:0;
+	background: url('Images/background.jpg') center/cover;
+}
+header{
+	width: 100%;
+	margin-left:10%;
+	margin-bottom: 3rem;
+}
+.logo img {
+	width: 10%;
+	float:left;
+}
+header h1 {
+	font-size: 3vw;
+	margin-left: 2%;
+	color: #005365;
+	text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    float:left;
+    width: 85%;
+}
+.wrapper {
+	margin-left: 25%;
+}
+fieldset {
+	width: 60%;
+	background-color: rgba(255, 255, 255, 0.3);
+	height: 60rem;
+	border-radius: 8px;
+}
+legend {
+	font-size: 2vw;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.container {
+	margin-bottom: 5%;
+}
+label {
+	font-size: 1.5vw;
+
+}
+input {
+	font-family: Unbounded;
+	border-radius: 8px;
+}
+input[name="first_name"] {
+	width:28%;
+	font-size: 1vw;
+	margin-left: 24.5%;
+}
+input[name="second_name"] {
+	width:28%;
+	font-size: 1vw;
+	margin-left: 5%;
+}
+input[name="email"] {
+	width:28%;
+	font-size: 1vw;
+	margin-left: 21%;
+}
+textarea {
+	font-family: Unbounded;
+	border-radius: 8px;
+	font-size: 1vw;
+}
+input[name="send"] {
+	margin-right: 5%;
+	margin-top: 2rem;
+	height:2rem;
+	color: white;
+	background-color:#005365;
+}
+input[name="back"] {
+	height:2rem;
+	color: white;
+	background-color:#005365;
+}
