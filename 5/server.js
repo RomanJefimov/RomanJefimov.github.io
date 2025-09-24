@@ -80,9 +80,9 @@ const isAuthenticated = (req, res, next) => {
 // Маршрут для входа
 app.post('/login', (req, res) => {
     const { username, password } = req.body;
-    if (username === adminUser.username && pasword === adminUser.password) {
+    if (username === adminUser.username && password === adminUser.password) {
         req.session.user = adminUser;
-        req.status(200).send('Login successful');
+        res.status(200).send('Login successful');
     } else {
         res.status(401).send('Invalid credentials');
     }
@@ -104,7 +104,7 @@ app.get('/session-status', (req, res) => {
 });
 
 // Маршрут для админ панели
-app.get('/admin', isAuthentificated, (req, res) => {
+app.get('/admin', isAuthenticated, (req, res) => {
     res.sendFile(path.join(__dirname, 'admin/admin.html'));
 });
 
@@ -128,9 +128,9 @@ app.get('/menu', async (req, res) => {
     }
 });
 
-app.post('/menu', isAuthentificated, async (req, res) => {
+app.post('/menu', isAuthenticated, async (req, res) => {
     try {
-        const newItem = new MenuItem(req.nody);
+        const newItem = new MenuItem(req.body);
         await newItem.save();
         res.status(201).json(newItem);
     } catch (error) {
@@ -141,8 +141,8 @@ app.post('/menu', isAuthentificated, async (req, res) => {
 app.delete('/menu/:id', isAuthenticated, async (req, res) => {
     try {
         const { id } = req.params;
-        const updateItem = await MenuItem.findByIdAndUpdate(id, req.body, { new: true });
-        res.status(200).json(updateItem);
+        const updateItem = await MenuItem.findByIdAndDelete(id);
+        res.status(200).send('Menu item deleted');
     } catch (error) {
         res.status(400).json({ message: error.message });
     }
