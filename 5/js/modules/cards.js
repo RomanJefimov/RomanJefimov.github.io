@@ -29,12 +29,12 @@ function cards() {
 
             element.innerHTML = `
                 <img src=${this.src} alt=${this.alt}>
-                <h3 class="menu_item-subtitle">${this.title}</h3>
-                <div class="menu_item-descr">${this.descr}</div>
-                <div class="menu_item-divider"></div>
-                <div class="menu_item-price">
-                    <div class="menu_item-cost">Цена:</div>
-                    <div class="menu_item-total"><span>${this.price}</span> USD/день</div>
+                <h3 class="menu__item-subtitle">${this.title}</h3>
+                <div class="menu__item-descr">${this.descr}</div>
+                <div class="menu__item-divider"></div>
+                <div class="menu__item-price">
+                    <div class="menu__item-cost">Цена:</div>
+                    <div class="menu__item-total"><span>${this.price}</span> USD/день</div>
                 </div>
             `;
             this.parent.append(element);

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fetchMenuItems = async () => {
         try {
-            const response = await fetch('/menu');
+            const response = await fetch('http://localhost:3001/menu');
             const menuItems = await response.json();
             renderMenuItems(menuItems);
         } catch (error) {
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
             <div class="item__item-actions">
-            <button class="btn btn-primary btn-sm edit-btn" data-id="${item._id}"Редактировать</button>
+            <button class="btn btn-primary btn-sm edit-btn" data-id="${item._id}">Редактировать</button>
             <button class="btn btn-danger btn-sm delete-btn" data-id="${item._id}">Удалить</button>
             </div>
             `;
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            const response = await fetch('/menu', {
+            const response = await fetch('http://localhost:3001/menu', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const data = Object.fromEntries(formData.entries());
 
         try {
-            const response = await fetch(`/menu/${itemId}`, {
+            const response = await fetch(`http://localhost:3001/menu/${itemId}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     logoutBtn.addEventListener('click', async () => {
         try {
-            const response = await fetch('/logout', {
+            const response = await fetch('http://localhost:3001/logout', {
                 method: 'POST'
             });
 
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const itemId = e.target.dataset.id;
             if (confirm('Are you sure you want to delete this item?')) {
                 try {
-                    const response = await fetch(`/menu/${itemId}`, {
+                    const response = await fetch(`http://localhost:3001/menu/${itemId}`, {
                         method: 'DELETE'
                     });
 
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (e.target.classList.contains('edit-btn')) {
             const itemId = e.target.dataset.id;
-            const response = await fetch('/menu');
+            const response = await fetch('http://localhost:3001/menu');
             const menuItems = await response.json();
             const selectedItem = menuItems.find(item => item._id === itemId);
 
